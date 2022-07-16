@@ -8,12 +8,11 @@ function MyDocument() {
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
           href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Paytone+One&family=Poppins:wght@500;600;700&display=swap"
-          rel="stylesheet"
-        ></link>
+          rel="stylesheet"></link>
       </Head>
       <body>
         <Main />
-        <NextScript />
+        <NextScript src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js;"/>
       </body>
     </Html>
   );
