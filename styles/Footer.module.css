@@ -1,0 +1,106 @@
+.footerTitle, .footer_content {
+    color: #120155; 
+    font-style: normal;
+}
+.footerTitle {
+    display: flex;
+    justify-content: center;
+    letter-spacing: 0.01em;
+    font-family: 'Paytone One', sans-serif;
+    text-align: center;      
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;   
+    padding-top:80px;
+}
+.slider {
+    padding: 50px 130px 50px 130px;
+}
+.carousel_icon {
+    padding-bottom: 100px;
+}
+.footer_content {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    padding-bottom: 30px;
+}
+.footer_author {
+    font-weight: 600;
+    font-size: 16px;
+}
+.footer_author_role {
+    font-weight: 400;
+    font-size: 16px;
+}
+.footer_author, .footer_author_role {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    line-height: 22px;
+    color: #000000;
+}
+.sliderIcon {
+    display: inline;    
+    justify-content: center;    
+    padding-bottom:80px;
+}
+.carousel-control-next {
+    left: 480px ; 
+    top: -50px;
+    position: relative;
+    background-color: #EBF6FF;
+    height: 50px;
+    width: 40px;
+}
+
+@media screen and (max-width: 992px) {
+    .slider {
+        padding: 40px 0px 40px 0px;
+    }
+    .personIcon, .slider_conent,  .slider_author_content {        
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    .carousel .carousel-control-prev {
+        left:10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 100%;
+    }
+    .personIcon {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }    
+}
+
+@media screen and (max-width: 712px) {
+    .personIcon {
+        order: 1;
+    }
+    .slider_conent {
+        order: 2;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .footerTitle {
+        font-size: 31px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .footerTitle {
+        font-size: 20px;
+        line-height: 23px;
+    }
+    .footer_author_role {
+        font-size: 12px;
+    }
+    .slider {
+        padding: 20px 0px 20px 0px;
+    }
+}
+
