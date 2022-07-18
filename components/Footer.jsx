@@ -65,9 +65,7 @@ const Footer = () => {
           </div>
         </Row>
 
-        <Carousel indicators={false}> {getCarouselDetails()}</Carousel>
-
-   
+        <Carousel indicators={false}> {getCarouselDetails()}</Carousel>   
       </Container>
     </div>
   );
