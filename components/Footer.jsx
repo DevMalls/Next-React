@@ -65,41 +65,9 @@ const Footer = () => {
           </div>
         </Row>
 
-        <Carousel indicators="false">{getCarouselDetails()}</Carousel>
+        <Carousel indicators={false}> {getCarouselDetails()}</Carousel>
 
-        {/*    ******Previous-Next-Icon*********
-        
-        <Row style={paddingSliderIcon}>
-          <Col lg={6} md={6} sm={6} xs={6} style={colStyle}>
-            <button
-            className="carousel-control-prev"
-            type="button"
-            data-bs-target="#footerAuthorSlider"
-            data-bs-slide="prev" 
-            style={previous}
-          >
-            <span>
-              <Image src={PreviousIcon} alt="Footer Previous Icon" width={15} />
-            </span>
-            <span className="visually-hidden">Previous</span>
-          </button>
-          </Col>
-
-          <Col lg={6} md={6} sm={6} xs={6}  style={colStyle}>
-          <button
-            className="carousel-control-next"
-            type="button"
-            data-bs-target="#footerAuthorSlider"
-            data-bs-slide="next"
-            style={next}
-          >
-            <span>
-              <Image src={NextIcon} alt="Footer Next Icon" width={15} />
-            </span>
-            <span className="visually-hidden">Next</span>
-          </button>
-          </Col>
-          </Row> */}
+   
       </Container>
     </div>
   );
